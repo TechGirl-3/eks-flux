@@ -25,16 +25,3 @@ spec:
     kind: GitRepository
     name: flux-system
   validation: client
----
-piVersion: source.toolkit.fluxcd.io/v1beta1
-kind: Bucket
-metadata:
-  name: tf-test1-bucket-15april
-  namespace: default
-spec:
-  interval: 5m
-  provider: aws
-  bucketName: tf-test1-bucket-15april
-  endpoint: s3.amazonaws.com
-  region: us-east-1
-  timeout: 30s

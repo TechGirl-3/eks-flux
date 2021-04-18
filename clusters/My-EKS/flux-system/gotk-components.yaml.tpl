@@ -2756,12 +2756,12 @@ spec:
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: Bucket
 metadata:
-  name: flux-bucket-13april
+  name: bucket
   namespace: default
 spec:
   interval: 5m
   provider: aws
-  bucketName: flux-bucket-13april
+  bucketName: bucket1
   endpoint: s3.amazonaws.com
   region: us-east-1
   timeout: 30s

@@ -2427,7 +2427,6 @@ spec:
             fieldRef:
               fieldPath: metadata.namespace
         image: ${ECR_HOST}/${FLUXCD_HELM_CONTROLLER}
-        #image: 857126229905.dkr.ecr.us-east-1.amazonaws.com/fluxcd-helm-controller:v0.8.1
         imagePullPolicy: IfNotPresent
         livenessProbe:
           httpGet:
